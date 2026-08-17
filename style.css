@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f1115;
+  color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1.5rem 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #a0a0a0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  background: #1a1d24;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #c0c0c0;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #5849c4;
+}
+
+#output {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #6c5ce7;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+  font-size: 0.85rem;
+}
